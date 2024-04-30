@@ -1,0 +1,18 @@
+div
+{
+  display: flex;
+  justify-content: flex-end;
+  height:100vh;
+  align-items: flex-end;
+}
+  
+  h1
+  {
+     background-color: black;
+	 color: white;
+	 padding: 15px 30px;
+	 border-radius: 30px;
+	 margin: 30px;
+	 
+}
+

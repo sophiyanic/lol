@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sophia's Profile</title>
+    <style>							
+        body {
+            margin: 0; 
+            padding: 0; 
+            background-image: url('https://scontent.fcrk1-4.fna.fbcdn.net/v/t1.15752-9/437316586_2731631960308579_1446930786747338982_n.png?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jcBEDDN28CAAb4__BGT&_nc_ht=scontent.fcrk1-4.fna&oh=03_Q7cD1QGu1Oljg_P3QPW3B8QF47a3iimLqowtLl7AsvRUzSBwJQ&oe=665846D1'); 
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            position: relative; 
+        }
+
+        #hobbies {
+            display: none; 
+            color: white;
+            font-size: 20px;
+            text-align: right; 
+            margin-top: 50px;
+            position: absolute; 
+            top: 60px; 
+            right: 20px;
+        }
+		
+        button {
+            position: absolute;
+            padding: 10px 10px;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            right: 20px; 
+        }
+    </style>
+        </head>
+<body>
+
+  
+	
+		
+	 
+	
+   <button id="showHobbiesButton" style="font-size:20px; background-color:black:; color:white; border-radius:25px;"> More Info</button>
+
+    <div id="hobbies">
+	    <p> Life level: 14 </p>
+		
+        <p>My Hobbies:</p>
+        <ul style="list-style: none; padding: 5;">
+            <li>dancing</li>
+            <li>reading</li>
+            <li>watching</li>
+		<p> Dream work: Pediatrician </p>
+		<p> My favorite food: carbonara</p>
+		<p> My favorite movie: Weathering With You </p>
+		<p> My favorite book: Love and Other Words </p>
+		
+		<ul style="list-style: none; padding: 0;">
+        
+    </div>
+
+    <script>
+        document.getElementById("showHobbiesButton").addEventListener("click", function() {
+            var hobbiesDiv = document.getElementById("hobbies");
+            if (hobbiesDiv.style.display === "none") {
+                hobbiesDiv.style.display = "block";
+            } else {
+                hobbiesDiv.style.display = "none";
+            }
+        });
+
+        document.getElementById("showfavoritebutton").addEventListener("click", function() {
+            var favoriteDiv = document.getElementById("favoritefood");
+            if (favoriteDiv.style.display === "none") {
+                favoriteDiv.style.display = "block";
+            } else {
+                favoriteDiv.style.display = "none";
+            }
+        });
+		
+		
+    </script>
+	
+
+	<div>
+	
+	<h1>.<h1>
+	
+	<link rel="stylesheet" href="try.css">
+	
+	</div>
+	 
+	
+	 <a href="homepage.html">
+   <button style="font-size:20px; background-color:black:; color:white; border-radius:25px;"> homepage</button>
+	</a>
+    
+</body>
+</html>
+
+
+
+
+
+

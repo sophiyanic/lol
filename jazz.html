@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jazz's proFILE</title>
+	<style>
+		
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Courier new", monospace;
+			background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://scontent.xx.fbcdn.net/v/t1.15752-9/439695957_410273648428020_7442683158620210393_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE54i3V87SCxmXWnpbVn_eAIQSGL5rgTSkhBIYvmuBNKYy7OXhIZvvWpMzwJgChxDB3HFh2fzqnkMCT2XV4j5ht&_nc_ohc=UTacmInnARkAb6t5opm&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QFO0DG4saO2NmQeGzqMxzmLOf70POAE_uCMa2OKbbFQzA&oe=66584A0F');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 100vh;
+			position: relative;
+		}
+	
+	#hobbies {
+            display: none; 
+            color: white;
+            font-size: 20px;
+            text-align: right; 
+            margin-top: 50px;
+            position: absolute; 
+            top: 60px; 
+            right: 20px;
+        }
+		
+        button {
+            position: absolute;
+            padding: 10px 10px;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            right: 20px; 
+        }
+    </style>
+        </head>
+<body>
+
+  
+	
+		
+	 
+	
+   <button id="showHobbiesButton" style="font-size:20px; background-color:black:; color:white; border-radius:25px;"> More Info</button>
+
+    <div id="hobbies">
+        <p>My Hobbies:</p>
+        <ul style="list-style: none; padding: 0;">
+            <li>Sleeping</li>
+            <li>Reading</li>
+            <li>Watching movies and videos</li>
+            <li>Writing stories</li>
+			<li>Listening to music</li>
+        </ul>
+		<p> My favorite foods </p>
+		<ul style="list-style: none; padding: 0;">
+            <li>Bulalo</li>
+            <li>Sisig</li>
+            <li>Ice cream</li>
+            <li>Fries</li>
+			<li>Burger</li>
+			<li>Chicken Nuggets</li>
+			<li>Grilled Hotdog</li>
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById("showHobbiesButton").addEventListener("click", function() {
+            var hobbiesDiv = document.getElementById("hobbies");
+            if (hobbiesDiv.style.display === "none") {
+                hobbiesDiv.style.display = "block";
+            } else {
+                hobbiesDiv.style.display = "none";
+            }
+        });
+
+        document.getElementById("showfavoritebutton").addEventListener("click", function() {
+            var favoriteDiv = document.getElementById("favoritefood");
+            if (favoriteDiv.style.display === "none") {
+                favoriteDiv.style.display = "block";
+            } else {
+                favoriteDiv.style.display = "none";
+            }
+        });
+		
+		
+    </script>
+	
+
+	<div>
+	
+	<h1>Me</h1>
+	
+	<link rel="stylesheet" href="try.css">
+	
+	</div>
+	 
+	
+	 <a href="homepage.html">
+   <button style="font-size:20px; background-color:black:; color:white; border-radius:25px;"> homepage</button>
+	</a>
+    
+</body>
+</html>
+

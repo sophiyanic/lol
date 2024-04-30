@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sabrina's Profile</title>
+    <style>							
+        body {
+            margin: 0; 
+            padding: 0; 
+            background-image: url('https://scontent.fcrk1-5.fna.fbcdn.net/v/t1.15752-9/440832125_402238352709778_725103805913350898_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IPGJ5ABX3Y4Ab7OxG_x&_nc_ht=scontent.fcrk1-5.fna&oh=03_Q7cD1QEm7eU-XobUJ2Ynw3E69delWIpVpnS4YLBtBMr22JvFYw&oe=66584CAD'); 
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            position: relative; 
+        }
+
+		#hobbies {
+		display: none; 
+		color: white;
+		font-size: 17px;
+		text-align: right; /* Align text to the right */
+		max-width: 350px; /* Limit the width of the container */
+		margin-top: 70px;
+		position: absolute; 
+		top: 45px; 
+		right: 20px;
+		}
+		
+		button {
+            position: absolute;
+            padding: 10px 10px;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            right: 20px; 
+			
+			margin-top: 50px;
+			margin-bottom: 80px;
+			margin-right: 70px;
+			margin-left: 120px; 
+		
+        }
+		
+		
+		
+    </style>
+</head>
+<body>
+    
+	 <button id="showHobbiesButton" style="font-size:20px; background-color:black:; color:white; border-radius:25px;"> More Info</button>
+
+  <div id="hobbies">
+  
+  
+	    <p>My Hobbies:</p>
+        <ul style="list-style: none; padding: 0;">
+            <li>Dancing</li>
+            <li>Reading</li>
+            <li>Watching</li>
+            <li>Drawing</li>
+        </ul>
+		<p> My favorite foods </p>
+		<ul style="list-style: none; padding: 0;">
+            <li>Sinigang</li>
+            <li>Sinampalukan</li>
+            <li>Caesar Salad</li>
+            <li>Chicken and Fries</li>
+        </ul>
+		<p> Comfort movies: <3 </p>
+		<ul style="list-style: none; padding: 0;">
+		<li>kimi ni todoke</li>
+		<li>ao haru ride</li>
+		<li>wild child<li>
+		<li>10 things I hate about you</li>
+		<li>Flipped</li>
+		<li>Me before you</li>
+  
+	</ul>
+
+    </div>
+
+  
+	 <script>
+        document.getElementById("showHobbiesButton").addEventListener("click", function() {
+            var hobbiesDiv = document.getElementById("hobbies");
+            if (hobbiesDiv.style.display === "none") {
+                hobbiesDiv.style.display = "block";
+            } else {
+                hobbiesDiv.style.display = "none";
+            }
+        });
+
+        document.getElementById("showfavoritebutton").addEventListener("click", function() {
+            var favoriteDiv = document.getElementById("favoritefood");
+            if (favoriteDiv.style.display === "none") {
+                favoriteDiv.style.display = "block";
+            } else {
+                favoriteDiv.style.display = "none";
+            }
+        });
+		
+		
+    </script>
+
+	<div>
+	
+	<h1>.<h1>
+	
+	<link rel="stylesheet" href="try.css">
+	
+	</div>
+	 
+	
+	 <a href="homepage.html">
+   <button style="font-size:px; background-color:black:; color:white; border-radius:25px;"> homepage</button>
+	</a>
+    
+</body>
+</html>
+
+
+
+
+
+
